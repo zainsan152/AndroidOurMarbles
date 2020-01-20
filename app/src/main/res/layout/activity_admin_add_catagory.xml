@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminAddCatagoryActivity">
+    <TextView
+        android:id="@+id/slogan_catagory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:text="Add New Product"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        />
+    <LinearLayout
+        android:id="@+id/linear1_catagory_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="45dp"
+        android:layout_below="@+id/slogan_catagory"
+        >
+
+
+        <Button
+            android:id="@+id/marbles"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:text="Marbles"
+            android:textColor="@android:color/white"
+            android:background="@color/colorPrimary"
+            android:layout_marginLeft="8dp"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linear2_catagory_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/linear1_catagory_layout"
+
+
+        >
+        <Button
+            android:id="@+id/tiles"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:textColor="@android:color/white"
+            android:background="@color/colorPrimary"
+            android:text="Tiles"
+            android:layout_marginLeft="8dp"
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linear3_catagory_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/linear2_catagory_layout"
+        >
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Admin_New_Order_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="Check New Order "
+        android:layout_marginTop="40dp"
+        android:layout_below="@id/linear3_catagory_layout"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="10dp"
+        />
+    <Button
+        android:id="@+id/Admin_logout_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="Logout"
+        android:layout_below="@id/Admin_New_Order_btn"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="10dp"
+        />
+
+
+</RelativeLayout>
